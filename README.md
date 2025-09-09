@@ -1,5 +1,6 @@
 # Ejercicio E2E - Flujo de Compra en SauceDemo
 
+
 Este proyecto realiza una prueba funcional automatizada (Prueba E2E) para un flujo de compra en la página [SauceDemo](https://www.saucedemo.com/) utilizando **SerenityBDD** con **ScreenPlay**.
 
 ## 📋 Prerequisitos
