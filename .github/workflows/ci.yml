@@ -16,7 +16,7 @@ jobs:
 
       #1. descarga del codigo fuente
       - name: Checkout code
-      uses:actions/Checkout@v3
+      uses:actions/checkout@v3
 
       #2 configurar JDK
       - name Setup JDK 
