@@ -27,7 +27,6 @@ public class TareaDeLogin implements Task {
         return instrumented(TareaDeLogin.class, username, password);
     }
 
-
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

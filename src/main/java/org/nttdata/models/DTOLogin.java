@@ -8,6 +8,7 @@ public class DTOLogin {
     public String getUsername() {
         return usuario;
     }
+
     public void setUsername(String username) {
         this.usuario = username;
     }
@@ -19,4 +20,6 @@ public class DTOLogin {
     public void setPassword(String password) {
         this.password = password;
     }
+
+
 }

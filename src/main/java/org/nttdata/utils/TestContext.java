@@ -24,6 +24,7 @@ public class TestContext {
             boolean isCI = System.getenv("CI") != null;
 
             ChromeOptions options = new ChromeOptions();
+            options.addArguments("--incognito");
             if (isCI) {
 
                 options.addArguments("--headless");
