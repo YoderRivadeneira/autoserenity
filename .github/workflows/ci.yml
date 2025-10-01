@@ -10,10 +10,8 @@ on:
       -master
 
 jobs:
-
   build-and-test:
-    runs-on: ubuntu-lastest
-
+  runs-on: ubuntu-lastest
   steps:
 
   # 1. Configurar el repositorio
