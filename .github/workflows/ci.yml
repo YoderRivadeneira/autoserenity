@@ -90,11 +90,6 @@ jobs:
       # 6. Ejecutar 
 
       - name: Run tests in headless mode
-
-
-        run: ./gradlew test --tests "com.nttdata.ejercicio1E2E.runner.EjecutarLogin" --info
-
-
         run: ./gradlew test --tests "org.nttdata.runner.EjecutarLogin" --info
 
 
