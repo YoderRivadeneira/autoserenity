@@ -92,5 +92,12 @@ jobs:
       - name: Run tests in headless mode
         run: ./gradlew test --tests "org.nttdata.runner.EjecutarLogin" --info
 
+      - name: reportes
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: resultados-CI
+          path: build/test-results
+
 
 
